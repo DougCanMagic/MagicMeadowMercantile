@@ -8,7 +8,13 @@ const inter = Inter({ subsets: ['latin'] });
 export default function Home() {
   return (
     <>
-      <h1>Home</h1>
+      <Image
+        src='/mmf_icon_alpha.png'
+        alt='Magic Meadow Farm logo'
+        width={100}
+        height={100}
+      />
+      <h1>Welcome to Magic Meadow Farm</h1>
     </>
   );
 }
