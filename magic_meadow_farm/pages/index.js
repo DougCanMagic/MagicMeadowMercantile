@@ -14,7 +14,7 @@ export default function Home() {
         width={100}
         height={100}
       />
-      <h1>Welcome to Magic Meadow Farm</h1>
+      <h1>Magic Meadow Farm</h1>
     </>
   );
 }
