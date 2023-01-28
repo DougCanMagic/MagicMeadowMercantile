@@ -11,6 +11,7 @@ export default function Navbar() {
 					alt='Magic Meadow Farm logo'
 					width={85}
 					height={85}
+					priority
 				/>
 				<h2>Magic Meadow Farm</h2>
 				<div className='nav-toggle'>X</div>
