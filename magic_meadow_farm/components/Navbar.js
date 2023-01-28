@@ -14,12 +14,20 @@ export default function Navbar() {
 				/>
 				<h2>Magic Meadow Farm</h2>
 				<div className='nav-toggle'>X</div>
-				<div className='nav-links'>
-					<Link href='/'>Home</Link>
-					<Link href='/mercantile'>Market</Link>
-					<Link href='/farm'>Farm</Link>
-					<Link href='/blog'>Blog</Link>
-				</div>
+			</div>
+			<div className='nav-links'>
+				<Link className='nav-link' href='/'>
+					Home
+				</Link>
+				<Link className='nav-link' href='/mercantile'>
+					Mercantile
+				</Link>
+				<Link className='nav-link' href='/farm'>
+					Farm
+				</Link>
+				<Link className='nav-link' href='/blog'>
+					Blog
+				</Link>
 			</div>
 		</header>
 	);
