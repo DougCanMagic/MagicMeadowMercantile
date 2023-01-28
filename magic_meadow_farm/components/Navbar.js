@@ -13,8 +13,8 @@ export default function Navbar() {
 					height={85}
 				/>
 				<h2>Magic Meadow Farm</h2>
-				<div>X</div>
-				<div>
+				<div className='nav-toggle'>X</div>
+				<div className='nav-links'>
 					<Link href='/'>Home</Link>
 					<Link href='/mercantile'>Market</Link>
 					<Link href='/farm'>Farm</Link>
