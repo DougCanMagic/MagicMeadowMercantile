@@ -1,10 +1,10 @@
-import Navbar from '../components/navbar';
+import Navbar from '../../components/navbar';
 
 function blog() {
 	return (
 		<>
 			<Navbar />
-			<div>Blog</div>
+			<h1>Blog</h1>
 		</>
 	);
 }

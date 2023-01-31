@@ -5,7 +5,7 @@ export default function mercantile() {
 	return (
 		<>
 			<Navbar />
-			<div>Mercantile</div>
+			<h1>Mercantile</h1>
 		</>
 	);
 }

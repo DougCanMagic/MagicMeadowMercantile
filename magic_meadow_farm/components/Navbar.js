@@ -9,11 +9,11 @@ export default function Navbar() {
 					className='main-nav-image'
 					src='/mmf_icon_alpha_nowords_1.png'
 					alt='Magic Meadow Farm logo'
-					width={85}
-					height={85}
+					width={55}
+					height={55}
 					priority
 				/>
-				<h2>Magic Meadow Farm</h2>
+				<h2>Magic Meadow Mercantile</h2>
 				<div className='nav-toggle'>X</div>
 			</div>
 			<div className='nav-links'>
@@ -28,6 +28,9 @@ export default function Navbar() {
 				</Link>
 				<Link className='nav-link' href='/blog'>
 					Blog
+				</Link>
+				<Link className='nav-link' href='/products'>
+					Products
 				</Link>
 			</div>
 		</header>

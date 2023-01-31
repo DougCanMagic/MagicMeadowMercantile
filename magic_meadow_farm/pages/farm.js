@@ -5,7 +5,7 @@ export default function farm() {
 	return (
 		<>
 			<Navbar />
-			<div>Farm</div>
+			<h1>Farm</h1>
 		</>
 	);
 }
