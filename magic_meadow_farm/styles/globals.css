@@ -15,10 +15,11 @@ body {
 	justify-content: space-around;
 	align-items: center;
 	padding: 2vw 0;
-	/* background-color: rgba(127, 255, 212, 0.4); */
-	background-color: rgba(151, 255, 222, 0.4);
+	background-color: rgba(127, 255, 212, 0.4);
+	/* background-color: rgba(151, 255, 222, 0.4); */
 	position: relative;
 	color: rgba(21, 65, 49);
+	border-bottom: 2px solid rgba(127, 255, 212, 0.6);
 }
 
 h2 {
@@ -51,7 +52,7 @@ h2 {
 	font-weight: 600;
 	padding: 7px 14px;
 	transition: 0.25s ease-in-out;
-	border: 2px solid rgba(127, 255, 212, 0.4);
+	border: 2px solid rgba(127, 255, 212, 0.6);
 	margin-top: 5px;
 	margin-right: 10px;
 	border-radius: 3px;
